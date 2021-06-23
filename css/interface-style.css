@@ -51,6 +51,7 @@ footer {
 	border-radius: 1px;
 	cursor: pointer;
 	padding: 20px 5px;
+    
 }
 .action-button:hover, .action-button:focus {
 	box-shadow: 0 0 0 2px white, 0 0 0 3px #30475E;

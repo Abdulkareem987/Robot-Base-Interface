@@ -17,13 +17,13 @@
             <div class="heading"> 
                 <h3>Control Robot Base:</h3>
             </div>
-            <button id="forwardBtn" class="action-button" style="margin-top: 20vh;" >FORWARD</button>
+            <button id="forwardBtn" class="action-button" style="margin-top: 20vh; border-radius: 15px 15px 0 0;" >FORWARD</button>
             <br>
-            <button id="leftBtn" class="action-button">LEFT</button>
+            <button id="leftBtn" class="action-button" style="border-radius: 15px 0 0 15px;">LEFT</button>
             <button id="stopBtn" class="action-button" style="margin:10px 10px;">STOP</button>
-            <button id="rightBtn" class="action-button">RIGHT</button>
+            <button id="rightBtn" class="action-button" style="border-radius: 0 15px 15px 0;">RIGHT</button>
             <br>
-            <button id="backwardBtn" class="action-button">BACKWARD</button>
+            <button id="backwardBtn" class="action-button" style="border-radius: 0 0 15px 15px;">BACKWARD</button>
                     
              
             <footer>
@@ -34,27 +34,27 @@
     <script>
         var btn = document.getElementById('leftBtn');
         btn.addEventListener('click', function() {
-        document.location.href = 'Left.php';
+        document.location.href = 'PHP Files/Left.php';
         });
 
         var btn = document.getElementById('stopBtn');
         btn.addEventListener('click', function() {
-        document.location.href = 'Stop.php';
+        document.location.href = 'PHP Files/Stop.php';
         });
 
         var btn = document.getElementById('rightBtn');
         btn.addEventListener('click', function() {
-        document.location.href = 'Right.php';
+        document.location.href = 'PHP Files/Right.php';
         });
 
         var btn = document.getElementById('forwardBtn');
         btn.addEventListener('click', function() {
-        document.location.href = 'Forward.php';
+        document.location.href = 'PHP Files/Forward.php';
         });
 
         var btn = document.getElementById('backwardBtn');
         btn.addEventListener('click', function() {
-        document.location.href = 'Backward.php';
+        document.location.href = 'PHP Files/Backward.php';
         });
     </script>
 </html>
