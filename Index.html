@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta charset="UTF-8">
+        <TItle>Index</TItle>
+        <link rel="stylesheet" href="css/index-style.css">
+        
+    </head>
+    <body>   
+       <nav>
+           <img src="Interface for Robotic Arm/logo.png" alt="SM logo" style="width: 180px;">
+       </nav>
+
+       <div style="margin-top: 30vh;">
+       <button id ="armInterface"class="action-button"> Control Robotic Arm </button>
+       <button id ="baseInterface"class="action-button"> Control Robot Base </button>
+       </div>
+        
+       <footer>
+               Copyright &copy 2021 Smart Methods. All Rights Reserved.
+       </footer>
+
+       <script>
+           var btn = document.getElementById('armInterface');
+           btn.addEventListener('click', function() {
+           document.location.href = 'Interface for Robotic Arm/Robotic Arm Interface.php';
+           });
+
+           var btn = document.getElementById('baseInterface');
+           btn.addEventListener('click', function() {
+           document.location.href = 'Robot_base_interface.html';
+           });
+       </script>
+    </body>
+</html>

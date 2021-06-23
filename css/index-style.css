@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+body {
+    margin: 0;
+    background-color: lightgray;
+    font-family: 'Poppins';
+    text-align: center;
+
+}
+
+nav {
+    background: -webkit-linear-gradient(-135deg, #25332e, #0a0f0d);
+    background: -moz-linear-gradient(-135deg, #25332e, #0a0f0d);
+    background: -o-linear-gradient(-135deg, #25332e, #0a0f0d);
+    background: linear-gradient(-135deg, #25332e, #0a0f0d);
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    border-bottom: solid 1PX;
+    
+}
+
+footer {
+    background: -webkit-linear-gradient(-135deg, #25332e, #0a0f0d);
+    background: -moz-linear-gradient(-135deg, #25332e, #0a0f0d);
+    background: -o-linear-gradient(-135deg, #25332e, #0a0f0d);
+    background: linear-gradient(-135deg, #25332e, #0a0f0d);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    border-top: solid 1PX;
+    padding: 8px 0 8px;
+    left: 0;
+    bottom: 0;
+    color: lightgray;
+    
+}
+
+
+.action-button {
+	width: 300px;
+	background: #25332e;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 20px 25px;
+	margin: 10px;
+}
+.action-button:hover, .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #0a0f0d;
+  background: #0a0f0d;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta charset="UTF-8">
+        <title>Robot Base Interface</title>
+        <link rel="stylesheet" href="css/interface-style.css">
+
+    </head>
+
+    <body>
+        <body>   
+            <nav>
+                <img src="Interface for Robotic Arm/logo.png" alt="SM logo" style="width: 180px;">
+            </nav>
+
+            <div class="heading"> 
+                <h3>Control Robot Base:</h3>
+            </div>
+            <button id="forwardBtn" class="action-button" style="margin-top: 20vh;" >FORWARD</button>
+            <br>
+            <button id="leftBtn" class="action-button">LEFT</button>
+            <button id="stopBtn" class="action-button" style="margin:10px 10px;">STOP</button>
+            <button id="rightBtn" class="action-button">RIGHT</button>
+            <br>
+            <button id="backwardBtn" class="action-button">BACKWARD</button>
+                    
+             
+            <footer>
+                    Copyright &copy 2021 Smart Methods. All Rights Reserved.
+            </footer>
+    </body>
+
+    <script>
+        var btn = document.getElementById('leftBtn');
+        btn.addEventListener('click', function() {
+        document.location.href = 'Left.php';
+        });
+
+        var btn = document.getElementById('stopBtn');
+        btn.addEventListener('click', function() {
+        document.location.href = 'Stop.php';
+        });
+
+        var btn = document.getElementById('rightBtn');
+        btn.addEventListener('click', function() {
+        document.location.href = 'Right.php';
+        });
+
+        var btn = document.getElementById('forwardBtn');
+        btn.addEventListener('click', function() {
+        document.location.href = 'Forward.php';
+        });
+
+        var btn = document.getElementById('backwardBtn');
+        btn.addEventListener('click', function() {
+        document.location.href = 'Backward.php';
+        });
+    </script>
+</html>
