@@ -1,0 +1,1117 @@
+{
+  "intents": [
+    {
+      "intent": "Arabic",
+      "examples": [
+        {
+          "text": "السلام عليكم"
+        },
+        {
+          "text": "سلام"
+        },
+        {
+          "text": "هاي"
+        },
+        {
+          "text": "هلو"
+        }
+      ],
+      "description": "If the user type in Arabic"
+    },
+    {
+      "intent": "Arm_Interface",
+      "examples": [
+        {
+          "text": "Control Robotic Arm"
+        },
+        {
+          "text": "How to control robotic arm?"
+        },
+        {
+          "text": "How to move robotic arm?"
+        },
+        {
+          "text": "What does Control Robotic Arm button do?"
+        }
+      ],
+      "description": "Info about the Robotic Arm Interface"
+    },
+    {
+      "intent": "Base_Interface",
+      "examples": [
+        {
+          "text": "Control Robot Base"
+        },
+        {
+          "text": "Control Robotic Base"
+        },
+        {
+          "text": "How to contorl robot base?"
+        },
+        {
+          "text": "How to move robot?"
+        },
+        {
+          "text": "What does Control Robot Base button do?"
+        }
+      ],
+      "description": "Info about the Robot Base Interface"
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Actually, let's start over"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "I want start from the beginning"
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "We will need to begin again"
+        }
+      ],
+      "description": "Restart bot or current flow."
+    },
+    {
+      "intent": "bot_status",
+      "examples": [
+        {
+          "text": "How are you?"
+        },
+        {
+          "text": "How r u"
+        },
+        {
+          "text": "How's your day?"
+        }
+      ],
+      "description": "to ask about the bot"
+    },
+    {
+      "intent": "Developer",
+      "examples": [
+        {
+          "text": "Designer"
+        },
+        {
+          "text": "Developer name"
+        },
+        {
+          "text": "Programmer"
+        },
+        {
+          "text": "Programmer name"
+        },
+        {
+          "text": "What's the designer name?"
+        },
+        {
+          "text": "What's the developer name?"
+        },
+        {
+          "text": "What's the programmer name?"
+        },
+        {
+          "text": "Who designed the interface?"
+        },
+        {
+          "text": "Who developed the interface?"
+        },
+        {
+          "text": "Who developed you?"
+        },
+        {
+          "text": "Who is the developer?"
+        }
+      ],
+      "description": "To learn about the developer"
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "about"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Service"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "Poject",
+      "examples": [
+        {
+          "text": "How to use Interface?"
+        },
+        {
+          "text": "Tell me about the interface"
+        },
+        {
+          "text": "What is the purpose of the Interface?"
+        },
+        {
+          "text": "What is this interface about?"
+        }
+      ],
+      "description": "Info about the project"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "About",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "About me",
+          "synonyms": [
+            "About you"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bot",
+          "synonyms": [
+            "About bot"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Arm",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Arm",
+          "synonyms": [
+            "Arm Interface",
+            "Robotic Arm",
+            "Robotic Arm Interface"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Run",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Save",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Base",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Base",
+          "synonyms": [
+            "Base Interface",
+            "Robot Base Interface",
+            "Robotic Base",
+            "Robotic Base Interface"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Developer",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Developed",
+          "synonyms": [
+            "Designed",
+            "Programmed"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Developer",
+          "synonyms": [
+            "Dev",
+            "Programmer"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Interfaces",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Project",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Robot",
+          "synonyms": [
+            "Robotic"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "The Interface",
+          "synonyms": [
+            "Interface",
+            "Interfaces"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Services",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Services",
+          "synonyms": [
+            "Serve",
+            "\"Service\"",
+            "Service",
+            "\"Services\""
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "SM",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Smart Methods",
+          "synonyms": [
+            "Company",
+            "SM"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_10_1625232656211",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "The Interface",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This small website is an Interface to control a combat robot by moving its base and adjusting the angels of the robotic arm as the user wants. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type in \"Base\" or \"Arm\" to get more Information about each Interface."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@Interfaces || #Poject",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1625224900430",
+      "previous_sibling": "node_3_1625060598557"
+    },
+    {
+      "type": "standard",
+      "title": "Ending",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Have a nice a day!"
+              },
+              {
+                "text": "Bye!"
+              },
+              {
+                "text": "Take care!"
+              },
+              {
+                "text": "See you later!"
+              },
+              {
+                "text": "Cya!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1625232656211",
+      "previous_sibling": "node_1_1625224903379"
+    },
+    {
+      "type": "standard",
+      "title": "The Developer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The developer name is Abdulkareem. He is a student at the Saudi Electronic University, and currently training at Smart Methods."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "To learn more about the training program and company, type in \"SM\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Developer || @Developer",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1625224903379",
+      "previous_sibling": "node_2_1625225494788"
+    },
+    {
+      "type": "standard",
+      "title": "The Base Controles",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Robot Base Interface allow the user to move the robot at any direction by clicking the desired direction's button after clicking Control Robot Base button in this Interface."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@Base || #Base_Interface",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1625225494788",
+      "previous_sibling": "node_6_1625225516787"
+    },
+    {
+      "type": "standard",
+      "title": "About Me",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "My name is InfoBot. I am a chat bot developed using IBM Watson Assistant as task in Smart methods summer training 2021. I speak English and I can provide you with Information you might need about this Interface and who developed it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_About_You || #General_Human_or_Bot || @About",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1625060598557",
+      "previous_sibling": "node_6_1625059216501"
+    },
+    {
+      "type": "standard",
+      "title": "Services",
+      "output": {
+        "generic": [
+          {
+            "title": "Choose what you want inforamtion about:",
+            "options": [
+              {
+                "label": "About me",
+                "value": {
+                  "input": {
+                    "text": "About the bot"
+                  }
+                }
+              },
+              {
+                "label": "The Interface",
+                "value": {
+                  "input": {
+                    "text": "About the interface"
+                  }
+                }
+              },
+              {
+                "label": "The Developer",
+                "value": {
+                  "input": {
+                    "text": "About the Developer"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [
+              {
+                "text": "Or type \"Restart\" to start again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@Services || #General_Agent_Capabilities",
+      "dialog_node": "node_6_1625059216501",
+      "previous_sibling": "node_7_1625233146550"
+    },
+    {
+      "type": "standard",
+      "title": "Robotic Arm",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Robotic Arm Interface allows the user to adjust the angels of the arm. When clicking \"Control Robotic Arm\" button, the user will be presented with six sliders to adjust the angels of each motor in the Robotic Arm to a degree between 0 and 180."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "The user can save the data to the database by clicking the \"Save\" button, and retrieve the data by clicking the \"Run' button."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@Arm || #Arm_Interface",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1625225516787",
+      "previous_sibling": "node_10_1625224900430"
+    },
+    {
+      "type": "standard",
+      "title": "SM",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Smart Method is a Saudi Tech Company that specialized in Artificial Intelligence, Robotics and Mobile apps developments. The company over training programs in 5 different specialties. The training is for university students and anyone who would like to benefit from a real job experience.  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "To learn more visit this link: https://www.s-m.com.sa/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625224903379",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1625059216501"
+      },
+      "conditions": "@SM",
+      "dialog_node": "node_6_1625231357851"
+    },
+    {
+      "type": "standard",
+      "title": "Status",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great, thanks for asking!"
+              },
+              {
+                "text": "Great, thanks!"
+              },
+              {
+                "text": "Good!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#bot_status",
+      "dialog_node": "node_7_1625233146550",
+      "previous_sibling": "node_9_1625232044733"
+    },
+    {
+      "type": "standard",
+      "title": "Arabic",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I can only understands English."
+              },
+              {
+                "text": "English please."
+              },
+              {
+                "text": "I plan to learn many languages in the feature. by right now please type in English only."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Arabic",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1625232044733",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi! My name is InfoBot and I am here to give you information about this Interface. Ask me what I do or type \"Services\" to see a list of what I can offer."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome || #General_Greetings || #Bot_Control_Start_Over",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Welcoming",
+  "language": "en",
+  "description": ""
+}
