@@ -1,4 +1,4 @@
-#### Task 3 ####
+## Task 3 
 
 # ChatBot
 
@@ -8,7 +8,7 @@ The chatbot is called InfoBot and it a simple chat bot to give the user some inf
 
 
 
-#### Task 2 ####
+## Task 2 
 # Robot Base Interface
 
 This project is about designing an interface and php pages to control the movement of a Robot Base. And connect the interface for the robotic arm with this Interface, in addition to making the interface mobile friendly.
