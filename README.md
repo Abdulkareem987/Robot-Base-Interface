@@ -21,7 +21,7 @@ List of files:
 
 3- PHP files folder: This folder contains the PHP files that retrieve the data from database for each button the user clicks (Forward, Left, Right, Backward, and Stop).
 
-4- robotbase.sql: This sql file is an export of the database used in this project (Import it to your database, and change database name in php files before running the project).
+4- robotbase.sql: This sql file is an export of the database used in this project (Import it to your database, and change database name in php files if needed before running the project).
 
 5- CSS folder: This folder contains the CSS files used to style both html files.
 
